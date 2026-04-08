@@ -20,7 +20,7 @@ import time
 import traceback
 from concurrent import futures
 
-# @TODO: Temporarily removed in https://github.com/GoogleCloudPlatform/microservices-demo/pull/3196
+# Profiler integration is intentionally disabled in this repo for now.
 # import googlecloudprofiler
 
 from google.auth.exceptions import DefaultCredentialsError
@@ -48,7 +48,7 @@ def initStackdriverProfiling():
     # Environment variable not set
     pass
 
-  # @TODO: Temporarily removed in https://github.com/GoogleCloudPlatform/microservices-demo/pull/3196
+  # Profiler startup is intentionally disabled until the dependency is restored.
   # for retry in range(1,4):
   #   try:
   #     if project_id:
